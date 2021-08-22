@@ -1,7 +1,4 @@
 const readlineSync = require('readline-sync'),
-const chalk =require('chalk')
-console.log(chalk.green.bgBlue.bold("Lets find out how well do you know me!!! 🙈"))
-
 userInput = readlineSync.question("Pleas enter your name ")
 console.log("Welcome"+" "+ userInput + " "+ "Lets Play the Quiz")
 let score = 0
