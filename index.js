@@ -66,7 +66,6 @@ let questionFive = {
 }
 let questionBank = [questionOne,questionTwo,questionThree,questionFour,questionFive]
 for(i=0;i<questionBank.length;i++){
-  console.log(chalk.green("---------------------------------------------------------"))
     play(questionBank[i].question,questionBank[i].answer)
 }
 
