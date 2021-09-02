@@ -104,7 +104,6 @@ else {
 }
 console.log("\t")
 console.log("--------\nCheck out the top scores and send me a screenshot if you've beaten them!\n")
-
 //displaying leaderboard leaders
 console.log("Name\t\tScore")
 for(var i = 0; i < highScores.length; i++) {
